@@ -1,0 +1,276 @@
+{
+    "feed_name": "pragmaticbingorooms_UK_GBP",
+    "currency_code": "GBP",
+    "rooms": [
+        {
+            "room_id": 4152,
+            "room_name": "Diamond Dazzle",
+            "game_token": "DiamondDazzlePR",
+            "image_base_path": "DiamondDazzle_v2",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4091,
+            "room_name": "Roller Disco",
+            "game_token": "RollerDiscoPR",
+            "image_base_path": "RollerDisco",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4100,
+            "room_name": "The Arena",
+            "game_token": "TheArenaPR",
+            "image_base_path": "TheArena",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 5270,
+            "room_name": "Double Bonanza",
+            "game_token": "DoubleBonanzaPR",
+            "image_base_path": "DoubleBonanza",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 5290,
+            "room_name": "The Daily Match",
+            "game_token": "TheDailyMatchPR",
+            "image_base_path": "DailyMatchRoom",
+            "image_base_extension": "",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 5310,
+            "room_name": "The Finale Match",
+            "game_token": "TheFinaleMatch",
+            "image_base_path": "TheFinaleMatchRoom",
+            "image_base_extension": "",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 5150,
+            "room_name": "Mash-Up Bingo",
+            "game_token": "MashUpPR",
+            "image_base_path": "MashUpPR",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4099,
+            "room_name": "Club Tropicana",
+            "game_token": "ClubTropicanaPR",
+            "image_base_path": "ClubTropicana",
+            "image_base_extension": "jpg",
+            "has_character_image": true,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 5131,
+            "room_name": "Penny Power Hour",
+            "game_token": "PennyPowerHourPR",
+            "image_base_path": "PennyPower",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 2083,
+            "room_name": "Super HeavyWeight",
+            "game_token": "SuperHeavyWeightPR",
+            "image_base_path": "SuperHeavyweightv2",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4092,
+            "room_name": "The Stadium",
+            "game_token": "TheStadiumPR",
+            "image_base_path": "TheStadium",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4095,
+            "room_name": "Cool Blues",
+            "game_token": "CoolBluesPR",
+            "image_base_path": "CoolBlues",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 5090,
+            "room_name": "Animingo",
+            "game_token": "AnimingoPR",
+            "image_base_path": "Animingo",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 1963,
+            "room_name": "Beachball Blast",
+            "game_token": "BeachBallBlastPR",
+            "image_base_path": "BeachballBlast",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4102,
+            "room_name": "Winter Wonderland",
+            "game_token": "WinterWonderlandPR",
+            "image_base_path": "WinterWonderland",
+            "image_base_extension": "jpg",
+            "has_character_image": true,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 1822,
+            "room_name": "HeavyWeight",
+            "game_token": "HeavyWeightPR",
+            "image_base_path": "Heavyweightv2",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 3031,
+            "room_name": "Drop Pots",
+            "game_token": "DropPotsPR",
+            "image_base_path": "DropPots_v2",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4103,
+            "room_name": "Studio365",
+            "game_token": "Studio365PR",
+            "image_base_path": "Studio365",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 2313,
+            "room_name": "Strictly Ballroom",
+            "game_token": "StrictlyBallroomPR",
+            "image_base_path": "StrictlyBallroom",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4096,
+            "room_name": "The Rodeo",
+            "game_token": "TheRodeoPR",
+            "image_base_path": "TheRodeo",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4101,
+            "room_name": "Atlantis",
+            "game_token": "AtlantisPragmaticBingoRoomPR",
+            "image_base_path": "AtlantisPR",
+            "image_base_extension": "jpg",
+            "has_character_image": true,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4105,
+            "room_name": "Masquerade",
+            "game_token": "MasqueradePR",
+            "image_base_path": "Masquerade",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 2003,
+            "room_name": "Space Odyssey",
+            "game_token": "SpaceOdysseyPR",
+            "image_base_path": "SpaceOdyssey",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 9999,
+            "room_name": "Bingo Lobby",
+            "game_token": "PragmaticBingoLobby",
+            "image_base_path": "1Can2Can",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 5330,
+            "room_name": "Summer Nights Games",
+            "game_token": "SummerNightsGamesPR",
+            "image_base_path": "",
+            "image_base_extension": "",
+            "has_character_image": true,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 4104,
+            "room_name": "Ghost Train",
+            "game_token": "GhostTrainPR",
+            "image_base_path": "GhostTrain",
+            "image_base_extension": "jpg",
+            "has_character_image": true,
+            "is_exclusive": true,
+            "live_feed_stream_url": ""
+        },
+        {
+            "room_id": 2352,
+            "room_name": "The Race Track",
+            "game_token": "TheRaceTrackPR",
+            "image_base_path": "TheRaceTrack",
+            "image_base_extension": "jpg",
+            "has_character_image": false,
+            "is_exclusive": false,
+            "live_feed_stream_url": ""
+        }
+    ]
+}

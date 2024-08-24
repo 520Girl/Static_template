@@ -1,0 +1,13 @@
+{
+    "status": true,
+    "message": "",
+    "data": {
+        "is_logged_in": false,
+        "mode": "dynamic",
+        "ip": "18.162.40.76",
+        "geolocation": "HK",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+        "access_restricted_to_version": false,
+        "browser_session": "8d359824-5242-11ef-a5d4-0050569c0a16"
+    }
+}

@@ -1,0 +1,51 @@
+function RaceTableRendererClass(){var _tableName;var _selectedRace;var _unselectedResultCss="sRaceUnSelectedResult";var _selectedResultCss="sRaceSelectedResult";var _unselectedCss="sRaceUnSelected";var _selectedCss="sRaceClicked";this.RaceInformation=loadRaceInformation;this.SelectRace=setSelectedRace;this.RaceSelected=getSelectedRace;this.SetSelected=setRace;this.SetSelectedResult=setSelectedRaceResult;function loadRaceInformation(tableName,collection,totalRaces,functionName){var tlbControl=returnObjById(tableName);var activeRow=true;if(tlbControl==null){return false;}
+_tableName=tableName;for(i=tlbControl.rows.length;i>0;i--){tlbControl.deleteRow(i-1);}
+var aRow,aCell,raceIndexSelected;var i,col;aRow=tlbControl.insertRow(-1);aRow.vAlign="middle";for(i=0;i<totalRaces;i++){aCell=aRow.insertCell(-1);aCell.id=tableName+"_"+i;if(collection.Races[i].Status==0){if(showWagerInformation){if(initRace==collection.Races[i].RaceId){aCell.className=_selectedCss;activeRow=false;initRace=collection.Races[i].RaceId;currentRaceIndex=i;_selectedRace=aCell;raceIndexSelected=i;}
+else{aCell.className=_unselectedCss;}}
+else{if(activeRow){aCell.className=_selectedCss;activeRow=false;initRace=collection.Races[i].RaceId;currentRaceIndex=i;_selectedRace=aCell;raceIndexSelected=i;}
+else{aCell.className=_unselectedCss;}}}
+else{aCell.className=_unselectedResultCss;initRace=collection.Races[i].RaceId;currentRaceIndex=i;}
+aCell.innerHTML="<div>"+collection.Races[i].RaceIdNumeric+"</div>";aCell.RaceIdNumeric=collection.Races[i].RaceIdNumeric;aCell.RaceId=collection.Races[i].RaceId;aCell.RaceIndex=i;if(collection.Races[i].Status==0&&collection.Races[i].HasPoolTypeAvailable){aCell.onclick=clickOnTableCell;aCell.Type=functionName;}
+else{aCell.Type="showResultInformation";aCell.onclick=clickOnTableCellResult;}}
+loadRaceInformationMobileDropDown('dvRaceListMobileDropDown',collection,totalRaces,functionName);loadRaceListInformationMobile('dvRaceListInformation',collection,totalRaces,functionName);if(_modePage==2){setDropDownRaceMobile(raceIndexSelected,true);$('#tblRaceList').addClass('sHideElement');}
+else{$('#tblRaceList').removeClass('sHideElement');}
+return true;}
+function loadRaceInformationMobileDropDown(dropDownRaceList,collection,totalRaces,functionName){$('#'+dropDownRaceList).html('');var options=new Array();var valueSelectDefault;for(i=0;i<totalRaces;i++){options[i]=new Array();options[i][0]=collection.Races[i].RaceIdNumeric;options[i][1]=messages.lblRaceRoot+' '+collection.Races[i].RaceIdNumeric;if(initRace==collection.Races[i].RaceId){valueSelectDefault=collection.Races[i].RaceIdNumeric;}}
+createDynamicDropDown('sDvDropDownRaceOption','raceOption',options,valueSelectDefault,function(result,idPrincipal){ShowWaitDialog(true,$('#dvRaceListMobileDropDown').offset().top,$('#dvRaceListMobileDropDown').offset().left+($('#dvRaceListMobileDropDown').width()/2));var index=result-1;_raceId=result;$('#dtlRaces_'+index).click();},undefined,undefined,undefined,true,0,undefined,undefined,document.getElementById(dropDownRaceList));return true;}
+function loadRaceInformationMobile(dropDownRaceList,collection,totalRaces,functionName){$('#'+dropDownRaceList).html('');for(i=0;i<totalRaces;i++){if(initRace==collection.Races[i].RaceId){$('#'+dropDownRaceList).append($('<option>',{value:collection.Races[i].RaceIdNumeric,text:messages.lblRaceRoot+' '+collection.Races[i].RaceIdNumeric,'class':_selectedCss}));}
+else{$('#'+dropDownRaceList).append($('<option>',{value:collection.Races[i].RaceIdNumeric,text:messages.lblRaceRoot+' '+collection.Races[i].RaceIdNumeric,'class':_unselectedCss}));}}
+$('#'+dropDownRaceList).change(function(){if(_modePage==2){var value=this;setTimeout(function(){$('#'+dropDownRaceList).find('.'+_selectedCss).removeClass(_selectedCss).addClass(_unselectedCss);$(value).find('option[value='+$('#'+dropDownRaceList).val()+']').addClass(_selectedCss);$('#dtlRaces_'+value.selectedIndex).click();ShowWaitDialog(false);},100);}});return true;}
+function loadRaceListInformationMobile(conteinerList,collection,totalRaces,functionName){$('#'+conteinerList).html('');for(i=0;i<totalRaces;i++){var aDivRaceClick=document.createElement("a");var aDivRaceMain=document.createElement("div");var aDivRace=document.createElement("div");var aDivRaceNext=document.createElement("div");aDivRace.innerHTML=messages.lblRaceRoot+' '+collection.Races[i].RaceIdNumeric;aDivRaceClick.RaceIdNumeric=collection.Races[i].RaceIdNumeric;aDivRaceClick.RaceId=collection.Races[i].RaceId;aDivRaceClick.RaceIndex=i;aDivRaceNext.className='sDvTracksColumnRaceIconNext';if(initRace>collection.Races[i].RaceId){aDivRaceMain.className=_unselectedResultCss;}
+else{aDivRaceMain.className=_unselectedCss;}
+if(collection.Races[i].Status==0){aDivRaceClick.onclick=clickOnTableCellMobile;aDivRaceClick.Type=functionName;}
+else{aDivRaceClick.Type="showResultInformation";aDivRaceClick.onclick=clickOnTableCellResultMobile;}
+$(aDivRaceMain).append(aDivRace);$(aDivRaceMain).append(aDivRaceNext);$(aDivRaceClick).append(aDivRaceMain);$('#'+conteinerList).append(aDivRaceClick);}
+return true;}
+function setSelectedRace(index){var tlbControl=returnObjById(_tableName);if(tlbControl==null){return false;}
+if(_selectedRace){var raceToSelect=returnObjById(_tableName+"_"+index);if(raceToSelect){if(raceToSelect){$('#dtlRaces').find('.'+_selectedCss).addClass(_unselectedCss).removeClass(_selectedCss);$('#dtlRaces').find('.'+_selectedResultCss).addClass(_unselectedResultCss).removeClass(_selectedResultCss);if(raceToSelect.className==_selectedCss){raceToSelect.className=_unselectedCss;}
+else{raceToSelect.className=_unselectedResultCss;}}
+raceToSelect.className=_selectedCss;_selectedRace=raceToSelect;setDropDownRaceMobile(index,false);_raceId=$(raceToSelect).text();sendTrackSelect();}}}
+function setSelectedRaceResult(index){var tlbControl=returnObjById(_tableName);if(tlbControl==null){return false;}
+if(_selectedRace){let raceToSelect=returnObjById(_tableName+"_"+index);if(raceToSelect){$('#dtlRaces').find('.'+_selectedCss).addClass(_unselectedCss).removeClass(_selectedCss);$('#dtlRaces').find('.'+_selectedResultCss).addClass(_unselectedResultCss).removeClass(_selectedResultCss);raceToSelect.className=_selectedResultCss;_selectedRace=raceToSelect;_raceId=$(raceToSelect).text();setDropDownRaceMobile(index,false);}}
+else{$('#dtlRaces').find('.'+_selectedCss).addClass(_unselectedCss).removeClass(_selectedCss);$('#dtlRaces').find('.'+_selectedResultCss).addClass(_unselectedResultCss).removeClass(_selectedResultCss);let raceToSelect=returnObjById(_tableName+"_"+index);raceToSelect.className=_selectedResultCss;_selectedRace=raceToSelect;_raceId=$(raceToSelect).text();setDropDownRaceMobile(index,false);}
+sendTrackSelect();}
+function getSelectedRace(){return _selectedRace;}
+function setRace(object){_selectedRace=object;}
+function resetCellStyle(){if(_selectedRace&&_selectedRace==this){this.className=_selectedCss;return;}
+this.className=_unselectedCss;}
+function resetCellStyleResult(){if(_selectedRace&&_selectedRace==this){this.className=_selectedResultCss;return;}
+this.className=_unselectedResultCss;}
+function clickOnTableCell(){ShowWaitDialog(true,$(this).offset().top-3,$(this).offset().left);if(_selectedRace){if(_selectedRace.className==_selectedCss){_selectedRace.className=_unselectedCss;}
+else{_selectedRace.className=_unselectedResultCss;}}
+this.className=_selectedCss;_selectedRace=this;setDropDownRaceMobile(this.RaceIndex,false);execRaceSelection(this);sendTrackSelect();}
+function clickOnTableCellResult(){ShowWaitDialog(true,$(this).offset().top-3,$(this).offset().left);if(_selectedRace){if(_selectedRace.className==_selectedCss){_selectedRace.className=_unselectedCss;}
+else{_selectedRace.className=_unselectedResultCss;}}
+this.className=_selectedResultCss;_selectedRace=this;setDropDownRaceMobile(this.RaceIndex,false);execRaceSelection(this);sendTrackSelect();}
+function clickOnTableCellMobile(){ShowWaitDialog(true,$(this).offset().top-3,$(this).parent().offset().left+($(this).parent().width()/2));var value=this;if(isMobile.any()){_sectionIsShowingModeMobile=2;_sectionIsShowingModeMobileLast=1;history.pushState("#RaceInfo",null,"#RaceInfo");if(_modeHashTagReloadMode){var valueSetCookie="[RaceInfo]:"+_trackCode+"//"+(parseInt(value.RaceId,10)-100)+"//"+_trackEvent+"//false//"+_trackType;SetCookie("raceInfo",valueSetCookie,1);location.reload();return;}
+else{scrollToTop();}}
+$(value).find(' > div').removeClass(_unselectedCss).addClass(_selectedCss);_selectedRace=$(value).find(' > div')[0];setTimeout(function(){setDropDownRaceMobile(value.RaceIndex,true);setSelectedRace(value.RaceIndex);execRaceSelection(value);},50);}
+function clickOnTableCellResultMobile(){ShowWaitDialog(true,$(this).offset().top-3,$(this).parent().offset().left+($(this).parent().width()/2));var value=this;if(isMobile.any()){SetValidateSession();_sectionIsShowingModeMobile=2;_sectionIsShowingModeMobileLast=1;history.pushState("#RaceInfo",null,"#RaceInfo");if(_modeHashTagReloadMode){var valueSetCookie="[RaceInfo]:"+_trackCode+"//"+(parseInt(value.RaceId,10)-100)+"//"+_trackEvent+"//false//"+_trackType;SetCookie("raceInfo",valueSetCookie,1);location.reload();return;}
+else{scrollToTop();}}
+$(value).find(' > div').removeClass(_unselectedCss).addClass(_selectedCss);_selectedRace=$(value).find(' > div')[0];setTimeout(function(){setDropDownRaceMobile(value.RaceIndex,true);setSelectedRaceResult(value.RaceIndex);execRaceSelection(value);},50);}
+function execRaceSelection(control){_sectionIsShowingModeMobile=2;SetValidateSession();if(control){switch(control.Type){case "showRaceInformation":showRaceInformation(control.RaceId,control.RaceIndex);break;case "showRunnersParlay":showRunnersParlay(control.RaceId,control.RaceIndex);break;case "showResultInformation":showResultInformation(control.RaceId,control.RaceIndex);break;}}}}
+function setDropDownRaceMobile(index,forceSetIndex){if(_modePage!=2||forceSetIndex){var indexDrop=index+1;setValueDynamicDropDown('raceOption',indexDrop);}}

@@ -1,0 +1,23 @@
+{
+    "status": true,
+    "message": "",
+    "data": {
+        "ssrBenchmark": [
+            "=====================================",
+            "Total: 0.000.000 s // Milestone: 0.000.000 s // Step: 0.000.000 s // New benchmark started",
+            "==========",
+            "Milestone: Start",
+            "==========",
+            "Total: 0.110.264 s // Milestone: 0.110.264 s // Step: 0.110.264 s // State ready",
+            "Total: 0.112.621 s // Milestone: 0.112.621 s // Step: 0.002.357 s // Variables ready",
+            "Total: 0.113.034 s // Milestone: 0.113.034 s // Step: 0.000.413 s // SEO config ready",
+            "Total: 0.113.145 s // Milestone: 0.113.145 s // Step: 0.000.111 s // Initial config ready",
+            "Total: 0.113.165 s // Milestone: 0.113.165 s // Step: 0.000.020 s // Before ip check",
+            "Total: 0.171.930 s // Milestone: 0.171.930 s // Step: 0.058.765 s // Ip checked",
+            "Total: 0.171.998 s // Milestone: 0.171.998 s // Step: 0.000.068 s // Geolocation checks ready",
+            "Total: 0.172.007 s // Milestone: 0.172.007 s // Step: 0.000.009 s // Cookie checks ready",
+            "Total: 0.172.013 s // Milestone: 0.172.013 s // Step: 0.000.006 s // Cookie & geolocation redirection rules checked",
+            "Total: 0.172.025 s // Milestone: 0.172.025 s // Step: 0.000.012 s // Completed - cookie/geo redirection endpoint"
+        ]
+    }
+}

@@ -1,0 +1,3 @@
+function LeftMenu_OnExpandedOrCollapsed(labelName,arrowName,containerName){var container=jQuery("#"+containerName);var label=jQuery("#"+labelName);}
+var _periodDragging=false;function OnLinesReading(){if(_periodDragging){_periodDragging=false;return;}
+var gameLines=jQuery("#game-lines");if(gameLines!=null&&gameLines!=undefined){gameLines.prepend('<div style="width: 100%;min-height: 100%;position: absolute;z-index: 1;cursor: progress;"></div>');gameLines.fadeTo("slow",0.30);}}

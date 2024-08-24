@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="29" viewBox="0 0 44 29">
+  <g fill="none">
+    <polygon fill="#DEC6FF" points="7.5 11.25 3.092 13.568 3.934 8.659 .367 5.182 5.296 4.466 7.5 0 9.704 4.466 14.633 5.182 11.066 8.659 11.908 13.568" transform="translate(14.5)"/>
+    <g transform="translate(0 11)">
+      <path stroke="#DEC6FF" stroke-linecap="round" stroke-linejoin="round" d="M13,12 C15.5660848,12.7731713 19.5999873,15.6242404 20.5409836,18 M15,6 C17.3447774,7.47441914 20.5409836,11.5670637 20.5409836,18"/>
+      <polygon fill="#DEC6FF" points="6 9 2.473 10.854 3.147 6.927 .294 4.146 4.237 3.573 6 0 7.763 3.573 11.706 4.146 8.853 6.927 9.527 10.854"/>
+      <path stroke="#DEC6FF" stroke-dasharray="1 2" stroke-linecap="round" stroke-linejoin="round" d="M17,11.408811 C15.6666667,10.0754777 13.3333333,8.93920733 12,8"/>
+    </g>
+    <g transform="matrix(-1 0 0 1 44 11)">
+      <path stroke="#DEC6FF" stroke-linecap="round" stroke-linejoin="round" d="M13,12 C15.5660848,12.7731713 19.5999873,15.6242404 20.5409836,18 M15,6 C17.3447774,7.47441914 20.5409836,11.5670637 20.5409836,18"/>
+      <polygon fill="#DEC6FF" points="6 9 2.473 10.854 3.147 6.927 .294 4.146 4.237 3.573 6 0 7.763 3.573 11.706 4.146 8.853 6.927 9.527 10.854"/>
+      <path stroke="#DEC6FF" stroke-dasharray="1 2" stroke-linecap="round" stroke-linejoin="round" d="M17,11.408811 C15.6666667,10.0754777 13.3333333,8.93920733 12,8"/>
+    </g>
+    <line x1="22" x2="22.002" y1="20" y2="14" stroke="#DEC6FF" stroke-dasharray="1 1"/>
+  </g>
+</svg>

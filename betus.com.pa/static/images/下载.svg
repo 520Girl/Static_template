@@ -1,0 +1,32 @@
+<svg version="1.1" id="card-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="230px" height="230px" viewBox="0 0 230 230" style="enable-background:new 0 0 230 230;" xml:space="preserve">
+<style type="text/css">
+                                .card_fill {
+                                    fill: #959EB2;
+                                }
+
+                                .circle_fill {
+                                    fill: none;
+                                }
+
+                                .st0 {
+                                    fill: #FFFFFF;
+                                }
+
+                                .st1 {
+                                    fill: #959EB2;
+                                }
+
+                                .st2 {
+                                    fill: #E6EAEC;
+                                }
+                            </style>
+<polygon id="mask" class="st0" points="153.2,76.3 98.2,76.3 98.2,96.5 77.7,96.5 77.7,154.2 153.2,154.2 "></polygon>
+<circle id="arc01" class="circle_fill" cx="115" cy="115" r="83.8" stroke="#E6EAEC"></circle>
+<circle id="arc02" class="circle_fill" cx="115" cy="115" r="100" stroke="#D3D8DF"></circle>
+<path id="form-elements" class="st2" d="M133.4,83.3v22.9h-5.1V83.3H133.4z M99.7,134.3l10.1,10.1c2-2.6,3.3-5.8,3.3-9.3
+                        c0-7.7-5.9-14.1-13.4-15V134.3z"></path>
+<path id="form" class="st1" d="M146.1,149.2h-25.3v-5h25.3V149.2z M146.1,108.8h-30.4v2.5h30.4V108.8z M118.2,90.7v15.5h5.1V90.7
+                          H118.2z M138.5,97.9v8.3h5.1v-8.3H138.5z M146.1,135.9h-25.3v5h25.3V135.9z M146.1,127.5h-25.3v5h25.3V127.5z M96.2,135.8v-15.7
+                          c-7.5,0.9-13.4,7.2-13.4,15c0,8.3,6.8,15.1,15.2,15.1c3.5,0,6.8-1.2,9.4-3.3L96.2,135.8z M158.2,71.3v87.9H72.6V96.5h-0.2l25.8-25.2
+                          l0,0H158.2z M153.2,76.3H98.2v20.2H77.7v57.8h75.5L153.2,76.3L153.2,76.3z"></path>
+</svg>

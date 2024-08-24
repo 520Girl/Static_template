@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="90" viewBox="0 0 128 90">
+  <defs>
+    <filter id="dualdrop-diamond-a" width="125%" height="138.6%" x="-12.5%" y="-19.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.7 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="dualdrop-diamond-b" cx="50%" cy="100%" r="159.532%" fx="50%" fy="100%" gradientTransform="matrix(0 -1 .65693 0 -.157 1.5)">
+      <stop offset="0%" stop-color="#28FFBB"/>
+      <stop offset="63.593%" stop-color="#041A13"/>
+      <stop offset="99.995%" stop-color="#D7FFF2"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" filter="url(#dualdrop-diamond-a)" transform="translate(10 10)">
+    <g transform="matrix(-1 0 0 1 107.556 0)">
+      <polygon fill="#02F5E9" points="0 17.284 23.474 20.21 53.711 70"/>
+      <polygon fill="#27CDC5" points="23.199 21.605 53.711 22.86 53.711 70"/>
+      <polygon fill="#78F2EC" points="53.667 22.86 81.764 21.34 53.711 70"/>
+      <polygon fill="#B7FFFC" points="81.764 21.34 106.556 17.284 53.711 70"/>
+      <polygon fill="#26D5CC" points="0 17.284 17.326 3.757 23.39 21.605"/>
+      <polygon fill="#479A96" points="39.85 8.642 23.199 21.605 53.711 22.86"/>
+      <polygon fill="#53E1D9" points="66.16 8.642 53.711 22.86 81.764 21.605"/>
+      <polygon fill="#78F2EC" points="90.096 4.509 106.556 17.284 81.764 21.605"/>
+      <polygon fill="#54E9E1" points="17.326 3.757 40.163 8.642 23.199 21.605"/>
+      <polygon fill="#ADF5F2" points="39.85 8.642 66.16 8.642 53.711 22.86"/>
+      <polygon fill="#54E9E1" points="90.096 4.509 66.16 8.642 81.764 21.605"/>
+      <polygon fill="#78F2EC" points="17.326 3.757 38.615 0 68.807 0 90.096 4.509 66.484 8.642 40.163 8.642"/>
+    </g>
+    <g opacity=".795">
+      <polygon fill="url(#dualdrop-diamond-b)" points="1 17.284 17.46 4.509 38.749 0 69.1 0 90.229 3.757 107.556 17.284 54.278 70"/>
+      <g opacity=".75" transform="matrix(-1 0 0 1 107.556 0)">
+        <polygon fill="#02F5E9" points="0 17.284 23.474 20.21 53.711 70"/>
+        <polygon fill="#27CDC5" points="23.199 21.605 53.711 22.86 53.711 70"/>
+        <polygon fill="#78F2EC" points="53.667 22.86 81.764 21.34 53.711 70"/>
+        <polygon fill="#B7FFFC" points="81.764 21.34 106.556 17.284 53.711 70"/>
+        <polygon fill="#26D5CC" points="0 17.284 17.326 3.757 23.39 21.605"/>
+        <polygon fill="#479A96" points="39.85 8.642 23.199 21.605 53.711 22.86"/>
+        <polygon fill="#53E1D9" points="66.16 8.642 53.711 22.86 81.764 21.605"/>
+        <polygon fill="#78F2EC" points="90.096 4.509 106.556 17.284 81.764 21.605"/>
+        <polygon fill="#54E9E1" points="17.326 3.757 40.163 8.642 23.199 21.605"/>
+        <polygon fill="#ADF5F2" points="39.85 8.642 66.16 8.642 53.711 22.86"/>
+        <polygon fill="#54E9E1" points="90.096 4.509 66.16 8.642 81.764 21.605"/>
+        <polygon fill="#78F2EC" points="17.326 3.757 38.615 0 68.807 0 90.096 4.509 66.484 8.642 40.163 8.642"/>
+      </g>
+    </g>
+  </g>
+</svg>

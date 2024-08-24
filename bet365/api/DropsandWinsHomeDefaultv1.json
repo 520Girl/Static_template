@@ -1,0 +1,77 @@
+{
+    "p": [],
+    "s": [
+        {
+            "gp": [
+                {
+                    "gt": "Buffalo King",
+                    "in": false,
+                    "tkn": "BuffaloKing",
+                    "pgr": "vs4096bufking",
+                    "gid": 12146,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_1_dropsa",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/BuffaloKing_1000x400.jpg",
+                    "ii": "//content001.bet365.com/Bingo/SGP/GamePod/Drops_and_Wins_Black.svg",
+                    "prid": 27,
+                    "prrid": 55,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Gems Bonanza",
+                    "in": false,
+                    "tkn": "GemsBonanza",
+                    "pgr": "vs20goldfever",
+                    "gid": 12185,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_2_dropsa",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/GemsBonanza_1000x400.jpg",
+                    "ii": "//content001.bet365.com/Bingo/SGP/GamePod/Drops_and_Wins_Black.svg",
+                    "prid": 27,
+                    "prrid": 55,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Madame Destiny Megaways",
+                    "in": false,
+                    "tkn": "MadameDestinyMegaways",
+                    "pgr": "vswaysmadame",
+                    "gid": 12240,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_3_dropsa",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/MadameDestinyMegaways_v2_1000x400.jpg",
+                    "ii": "//content001.bet365.com/Bingo/SGP/GamePod/Drops_and_Wins_Black.svg",
+                    "prid": 27,
+                    "prrid": 55,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Mustang Gold",
+                    "in": false,
+                    "tkn": "MustangGold",
+                    "pgr": "vs25mustang",
+                    "gid": 12249,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_4_dropsa",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/MustangGold_1000x400.jpg",
+                    "ii": "//content001.bet365.com/Bingo/SGP/GamePod/Drops_and_Wins_Black.svg",
+                    "prid": 27,
+                    "prrid": 55,
+                    "rz": 1,
+                    "jc": ""
+                }
+            ]
+        }
+    ]
+}

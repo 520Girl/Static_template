@@ -1,0 +1,3 @@
+function PoolLimitClass(){this.Limits=new Array();this.GetLimitInformation=GetLimitInfo;this.Add=AddLimit;function AddLimit(index,strMin,strMax,minValue,maxValue,raceCondition){this.Limits[index]=new Object();this.Limits[index].Min=strMin;this.Limits[index].Max=strMax;this.Limits[index]._Min=minValue;this.Limits[index]._Max=maxValue;this.Limits[index].RaceCondition=raceCondition;}
+function GetLimitInfo(poolType,raceCondition){var index=poolType+'-'+raceCondition;var infoLimit=this.Limits[index];if((infoLimit==null||infoLimit==undefined)&&raceCondition!='0'){return this.GetLimitInformation(poolType,"0");}
+else{return infoLimit;}}}

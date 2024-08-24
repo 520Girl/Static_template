@@ -1,0 +1,11 @@
+function buildLimitMessage(poolCode,wagerAmount,limitMaxEnable){var pos=0;var poolIndex=0;var raceCondition=_WagerInfo.Races[$('#_RaceIdOnClient').val()].Condition;poolIndex=(poolCode==PoolType.Straight)?PoolType.Win:poolCode;var poolLimitRaceCondition=poolLimits.GetLimitInformation(poolIndex,raceCondition);if(poolLimitRaceCondition==null){return "";}
+return buildLimitMessageWithValues(wagerAmount,poolLimitRaceCondition._Min,poolLimitRaceCondition._Max,limitMaxEnable);}
+function buildLimitMessageWithValues(wagerAmount,minValue,maxValue,limitMaxEnable){var strmessage=messages._1002;if(limitMaxEnable){strmessage=messages._10021;}
+if((wagerAmount<minValue)&&limitMaxEnable){pos=strmessage.indexOf("{0:C}");if(pos>-1){strmessage=strmessage.substring(0,pos)+minValue+strmessage.substring(pos+5,strmessage.length);pos=strmessage.indexOf("{1:C}");if(pos>-1){strmessage=strmessage.substring(0,pos)+shoppingCart.CurrencySymbol+wagerAmount+strmessage.substring(pos+5,strmessage.length);}}
+return strmessage;}
+if(((wagerAmount<minValue)||(wagerAmount>maxValue))&&!limitMaxEnable){pos=strmessage.indexOf("{0:C}");if(pos>-1){strmessage=strmessage.substring(0,pos)+shoppingCart.CurrencySymbol+minValue+strmessage.substring(pos+5,strmessage.length);pos=strmessage.indexOf("{1:C}");if(pos>-1){strmessage=strmessage.substring(0,pos)+shoppingCart.CurrencySymbol+maxValue+strmessage.substring(pos+5,strmessage.length);pos=strmessage.indexOf("{2:C}");if(pos>-1){strmessage=strmessage.substring(0,pos)+shoppingCart.CurrencySymbol+wagerAmount+strmessage.substring(pos+5,strmessage.length);}}}
+return strmessage;}
+else{return "";}}
+function buildWrongNumberMessage(wrongNumber){var strmessage=messages._1008;var pos=0;pos=strmessage.indexOf("{0}");if(pos>-1){strmessage=strmessage.substring(0,pos)+TrimNumber(wrongNumber)+strmessage.substring(pos+3,strmessage.length);}
+return strmessage;}
+function showErrorMessage(errorId){switch(errorId){case 1007:alert("The information about this track is not valid. Please, contact customer service.");hideRunnersTables();break;}}

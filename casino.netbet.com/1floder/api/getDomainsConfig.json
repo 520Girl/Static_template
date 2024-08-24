@@ -1,0 +1,466 @@
+{
+    "status": true,
+    "message": "",
+    "data": {
+        "domains": {
+            "netbet.com": {
+                "langs_selector": [
+                    {
+                        "lang": "en",
+                        "domain": "netbet.com"
+                    },
+                    {
+                        "lang": "es",
+                        "domain": "netbet.com",
+                        "websites": {
+                            "lotto": "loteria"
+                        }
+                    },
+                    {
+                        "lang": "eu",
+                        "domain": "netbet.com"
+                    },
+                    {
+                        "lang": "gb",
+                        "domain": "netbet.co.uk",
+                        "hide_for_websites": [
+                            "lotto"
+                        ],
+                        "websites": {
+                            "lotto": "lottery"
+                        }
+                    },
+                    {
+                        "lang": "ro",
+                        "domain": "netbet.ro",
+                        "hide_for_websites": [
+                            "lotto"
+                        ],
+                        "websites": {
+                            "lotto": "loto"
+                        }
+                    },
+                    {
+                        "lang": "ca",
+                        "domain": "netbet.com"
+                    },
+                    {
+                        "lang": "ja",
+                        "domain": "netbet.com",
+                        "websites": {
+                            "lotto": "xn--y8js3434a"
+                        }
+                    },
+                    {
+                        "lang": "br",
+                        "domain": "netbet.com",
+                        "websites": {
+                            "lotto": "loteria"
+                        }
+                    }
+                ],
+                "langs_redirect": false,
+                "langs_canonical": {
+                    "ro": "netbet.ro",
+                    "eu": "netbet.co.uk/gb",
+                    "en": "netbet.co.uk/gb"
+                },
+                "langs_available": [
+                    "en",
+                    "de",
+                    "es",
+                    "eu",
+                    "gr",
+                    "ro",
+                    "ru",
+                    "ca",
+                    "ja",
+                    "zh",
+                    "br",
+                    "ua",
+                    "fi",
+                    "in",
+                    "dk",
+                    "on"
+                ],
+                "default_lang": "eu",
+                "disable_langs_selector": [
+                    "dk"
+                ],
+                "default_currencies": {
+                    "en": "CAD",
+                    "de": "EUR",
+                    "es": "USD",
+                    "eu": "EUR",
+                    "gr": "EUR",
+                    "ro": "RON",
+                    "ca": "CAD",
+                    "ja": "USD",
+                    "zh": "CNY",
+                    "br": "BRL",
+                    "ua": "USD",
+                    "in": "INR",
+                    "fi": "EUR",
+                    "dk": "DKK",
+                    "on": "CAD"
+                },
+                "aliases": {
+                    "loteria": {
+                        "product": "lotto",
+                        "default_lang": "es",
+                        "langs_available": [
+                            "es",
+                            "br"
+                        ]
+                    },
+                    "xn---staging-g63g6cz502d": {
+                        "product": "lotto",
+                        "default_lang": "ja",
+                        "langs_available": [
+                            "ja"
+                        ]
+                    },
+                    "xn--y8js3434a": {
+                        "product": "lotto",
+                        "default_lang": "ja",
+                        "langs_available": [
+                            "ja"
+                        ]
+                    },
+                    "br": {
+                        "product": "sportx",
+                        "default_lang": "brx",
+                        "langs_available": [
+                            "brx"
+                        ]
+                    }
+                }
+            },
+            "netbet.co.uk": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "gb"
+                ],
+                "default_lang": "gb",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "gb": "GBP"
+                },
+                "aliases": {
+                    "lottery": {
+                        "product": "lotto",
+                        "default_lang": "gb",
+                        "langs_available": [
+                            "gb"
+                        ]
+                    }
+                }
+            },
+            "netbet.ro": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "ro",
+                    "en"
+                ],
+                "default_lang": "ro",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "ro": "RON",
+                    "en": "RON"
+                },
+                "aliases": {
+                    "loto": {
+                        "product": "lotto",
+                        "default_lang": "ro",
+                        "langs_available": [
+                            "ro"
+                        ]
+                    }
+                }
+            },
+            "netbet.gr": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "gr"
+                ],
+                "default_lang": "gr",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "gr": "EUR"
+                },
+                "aliases": false
+            },
+            "netbet.de": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "de",
+                    "go",
+                    "gl"
+                ],
+                "default_lang": "de",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "de": "EUR",
+                    "go": "EUR",
+                    "gl": "EUR"
+                },
+                "aliases": {
+                    "www": {
+                        "product": "casino",
+                        "default_lang": "de",
+                        "langs_available": [
+                            "de"
+                        ]
+                    },
+                    "casino": {
+                        "product": "casino",
+                        "default_lang": "go",
+                        "langs_available": [
+                            "go"
+                        ]
+                    }
+                }
+            },
+            "netbet.ie": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": {
+                    "ie": "netbet.co.uk/gb"
+                },
+                "langs_available": [
+                    "ie"
+                ],
+                "default_lang": "ie",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "ie": "EUR"
+                },
+                "aliases": false
+            },
+            "netbet.ca": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "ca",
+                    "en"
+                ],
+                "default_lang": "ca",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "ca": "CAD",
+                    "en": "CAD"
+                },
+                "aliases": false
+            },
+            "netbet.ru": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "ru"
+                ],
+                "default_lang": "ru",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "ru": "USD"
+                },
+                "aliases": {
+                    "xn---staging-u9g4aa1c": {
+                        "product": "lotto",
+                        "default_lang": "ru",
+                        "langs_available": [
+                            "ru"
+                        ]
+                    },
+                    "xn--k1agap": {
+                        "product": "lotto",
+                        "default_lang": "ru",
+                        "langs_available": [
+                            "ru"
+                        ]
+                    }
+                }
+            },
+            "netbet89.com": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "tr",
+                    "en"
+                ],
+                "default_lang": "tr",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "tr": "TRY"
+                },
+                "aliases": false
+            },
+            "netbet88.com": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "zh",
+                    "ja",
+                    "en"
+                ],
+                "default_lang": "ja",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "ja": "USD",
+                    "zh": "CNY",
+                    "en": "USD"
+                },
+                "aliases": false
+            },
+            "netbet.com.br": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "br"
+                ],
+                "default_lang": "br",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "br": "USD"
+                },
+                "aliases": {
+                    "loteria": {
+                        "product": "lotto",
+                        "default_lang": "br",
+                        "langs_available": [
+                            "br"
+                        ]
+                    }
+                }
+            },
+            "netbet.ng": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "ng"
+                ],
+                "default_lang": "ng",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "ng": "NGN"
+                },
+                "aliases": false
+            },
+            "netbet.fi": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "fi"
+                ],
+                "default_lang": "fi",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "fi": "EUR"
+                },
+                "aliases": []
+            },
+            "netbet.se": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "sv"
+                ],
+                "default_lang": "sv",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "sv": "SEK"
+                },
+                "aliases": false
+            },
+            "netbet.com.mx": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "mx"
+                ],
+                "default_lang": "mx",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "mx": "MXN"
+                },
+                "aliases": false
+            },
+            "netbet.tn": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "tn"
+                ],
+                "default_lang": "tn",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "tn": "TND"
+                },
+                "aliases": false
+            },
+            "netbet.co.dk": {
+                "langs_selector": false,
+                "langs_redirect": false,
+                "langs_canonical": false,
+                "langs_available": [
+                    "da"
+                ],
+                "default_lang": "da",
+                "disable_langs_selector": false,
+                "default_currencies": {
+                    "da": "DKK"
+                },
+                "aliases": false
+            }
+        },
+        "aliases": {
+            "lotto": {
+                "netbet.com": {
+                    "es": "loteria",
+                    "br": "loteria",
+                    "ja": "xn--y8js3434a"
+                },
+                "netbet.co.uk": {
+                    "gb": "lottery"
+                },
+                "netbet.ro": {
+                    "ro": "loto"
+                },
+                "netbet.ru": {
+                    "ru": "xn--k1agap"
+                },
+                "netbet.com.br": {
+                    "br": "loteria"
+                }
+            },
+            "sportx": {
+                "netbet.com": {
+                    "brx": "br"
+                }
+            },
+            "casino": {
+                "netbet.de": {
+                    "de": "www",
+                    "go": "casino"
+                }
+            }
+        }
+    }
+}

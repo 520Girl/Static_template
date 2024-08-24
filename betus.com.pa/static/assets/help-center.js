@@ -1,0 +1,2 @@
+function openHelpCenter(){let helpBtn=document.querySelector('.help-btn');if(helpBtn){document.querySelector('.help-center-container').style.display='block';}}
+function closeHelpCenter(){const closeHelpCenterModal=document.getElementById('closeBtn');if(closeHelpCenterModal){document.querySelector('.help-center-container').style.display="none";}}

@@ -1,0 +1,89 @@
+{
+    "p": [],
+    "s": [
+        {
+            "gp": [
+                {
+                    "gt": "Slingo Rainbow Riches",
+                    "in": false,
+                    "tkn": "SlingoRainbowRiches",
+                    "pgr": "slingoRainbowRichesDesktop",
+                    "gid": 14800,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_1_slingo",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/SlingoRainbowRiches_1000x400.jpg",
+                    "prid": 2,
+                    "prrid": 2,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Slingo Deal or No Deal",
+                    "in": false,
+                    "tkn": "SlingoDealorNoDeal",
+                    "pgr": "dealOrNoDealSlingoDesktop",
+                    "gid": 14749,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_2_slingo",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/SlingoDealOrNoDeal_1000x400.jpg",
+                    "prid": 2,
+                    "prrid": 2,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Slingo Centurion Maximus Winnus",
+                    "in": false,
+                    "tkn": "SlingoCenturionMaximusWinnus",
+                    "pgr": "slingoCenturionDesktop",
+                    "gid": 14757,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_3_slingo",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/SlingoCenturion_1000x400.jpg",
+                    "prid": 2,
+                    "prrid": 2,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Slingo Sweet Bonanza",
+                    "in": false,
+                    "tkn": "slingoSweetBonanza",
+                    "pgr": "slingoSweetBonanzaDesktop",
+                    "gid": 15181,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_4_slingo",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/slingoSweetBonanza_1000x400.jpg",
+                    "prid": 2,
+                    "prrid": 2,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Lucky Larry’s Lobstermania Slingo",
+                    "in": false,
+                    "tkn": "LuckyLarrysLobstermaniaSlingo",
+                    "pgr": "luckyLarrysLobstermaniaDesktop",
+                    "gid": 13936,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_5_slingo",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/LuckyLarrysLobstermaniaSlingo_1000x400.jpg",
+                    "prid": 2,
+                    "prrid": 2,
+                    "rz": 1,
+                    "jc": ""
+                }
+            ]
+        }
+    ]
+}

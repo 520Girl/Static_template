@@ -1,0 +1,1 @@
+async function e(t,o){try{const r=await fetch(t,o);if(!r.ok){const s=await r.text(),c=new Error(s);throw Object.assign(c,{status:r.status})}return await r.json()}catch(r){throw r}}export{e as f};

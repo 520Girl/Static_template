@@ -1,0 +1,94 @@
+{
+    "p": [],
+    "s": [
+        {
+            "gp": [
+                {
+                    "gt": "Bonus Keno",
+                    "in": false,
+                    "tkn": "BonusKeno",
+                    "pgr": "27001",
+                    "gid": 15316,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_1_origin",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/BonusKeno_v2_1000x400.jpg",
+                    "ii": "//content001.bet365.com/Bingo/SGP/GamePod/Xicon.svg",
+                    "prid": 18,
+                    "prrid": 18,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Penalty Shoot-out",
+                    "in": false,
+                    "tkn": "PenaltyShootout",
+                    "pgr": "29007",
+                    "gid": 15239,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_2_origin",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/PenaltyShootOut_v2_1000x400.jpg",
+                    "ii": "//content001.bet365.com/Bingo/SGP/GamePod/Xicon.svg",
+                    "prid": 18,
+                    "prrid": 18,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Touchdown",
+                    "in": false,
+                    "tkn": "Touchdown",
+                    "pgr": "29008",
+                    "gid": 15761,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_3_origin",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/Touchdown_v2_1000x400.jpg",
+                    "ii": "//content001.bet365.com/Bingo/SGP/GamePod/Xicon.svg",
+                    "prid": 18,
+                    "prrid": 18,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Hi Lo Classic",
+                    "in": false,
+                    "tkn": "HiLoClassic",
+                    "pgr": "24001",
+                    "gid": 15763,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_4_origin",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/HiLoClassicV3_1000x400.jpg",
+                    "ii": "//content001.bet365.com/Bingo/SGP/GamePod/Xicon.svg",
+                    "prid": 18,
+                    "prrid": 18,
+                    "rz": 1,
+                    "jc": ""
+                },
+                {
+                    "gt": "Mini Super Spin Roulette",
+                    "in": false,
+                    "tkn": "MiniSuperSpinRoulette",
+                    "pgr": "22003",
+                    "gid": 15158,
+                    "pid": 0,
+                    "stm": false,
+                    "tid": "s_1_cust_5_origin",
+                    "iex": false,
+                    "ip": "//content001.bet365.com/Bingo/SGP/GamePodImages/MiniSuperSpinRoulette_1000x400.jpg",
+                    "ii": "//content001.bet365.com/Bingo/SGP/GamePod/Xicon.svg",
+                    "prid": 18,
+                    "prrid": 18,
+                    "rz": 1,
+                    "jc": ""
+                }
+            ]
+        }
+    ]
+}
